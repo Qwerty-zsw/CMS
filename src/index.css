@@ -10,7 +10,8 @@ body,
   padding: 0;
 }
 
-a{
+a, a:hover{
   text-decoration: none;
+  color: #555;
   cursor: pointer;
 }

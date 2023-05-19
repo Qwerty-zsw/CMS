@@ -5,7 +5,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 
 const Navbar = () => {
   return (
-    <div className="MainNav w-100 position-fixed top-0 ">
+    <div className="MainNav w-100 position-sticky top-0 ">
         <div className="NavWrapper h-100 d-flex justify-content-between align-items-center">
             <div className="LeftSide">
                 <span className="logo fw-bold fs-3 align-items-center" style={{color:"darkblue"}}>CMS</span>
@@ -14,11 +14,11 @@ const Navbar = () => {
             <div className="RightSide d-flex align-items-center">
                 <div className="icon me-3 position-relative">
                     <NotificationsNoneIcon />
-                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle text-white">2</span>
+                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle text-white p-2 fw-bold">2</span>
                 </div>
                 <div className="icon me-3 position-relative">
                     <LanguageIcon />
-                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle text-white">2</span>
+                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle text-white p-2 fw-bold">2</span>
                 </div>
                 <div className="icon me-3 position-relative">
                     <SettingsIcon />
