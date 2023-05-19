@@ -1,7 +1,10 @@
+import Features from "../../Components/Features/Features"
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <>
+      <Features />
+    </>
   )
 }
 
