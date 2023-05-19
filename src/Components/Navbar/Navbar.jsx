@@ -14,11 +14,11 @@ const Navbar = () => {
             <div className="RightSide d-flex align-items-center">
                 <div className="icon me-3 position-relative">
                     <NotificationsNoneIcon />
-                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle">2</span>
+                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle text-white">2</span>
                 </div>
                 <div className="icon me-3 position-relative">
                     <LanguageIcon />
-                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle">2</span>
+                    <span className="iconNotif position-absolute bg-danger d-flex justify-content-center align-items-center rounded-circle text-white">2</span>
                 </div>
                 <div className="icon me-3 position-relative">
                     <SettingsIcon />
