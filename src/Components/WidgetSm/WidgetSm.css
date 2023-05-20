@@ -1,6 +1,6 @@
 .WidgetSm {
   flex: 1;
-  margin-right: 20px;
+  margin: 0 20px;
   padding: 20px;
   box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
@@ -40,4 +40,9 @@
   background-color: #eeeef7;
   color: #555;
   cursor: pointer;
+}
+
+.asdasd {
+  min-width: 10rem;
+  padding-left: 1rem;
 }
