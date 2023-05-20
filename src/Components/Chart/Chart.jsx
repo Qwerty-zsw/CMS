@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   Tooltip,
 } from "recharts";
+import "./Chart.css"
 
 const Chart = ({ title, data, dataKey, grid }) => {
   return (

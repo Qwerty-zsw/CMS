@@ -49,4 +49,31 @@ const xAxisData = [
   },
 ];
 
-export { xAxisData };
+const newMembers = [
+  {
+    id: 1,
+    username: "Masoud Hajiloo",
+    title: "Developer",
+    img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  },
+  {
+    id: 2,
+    username: "Example Example",
+    title: "Example",
+    img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  },
+  {
+    id: 3,
+    username: "Random Random",
+    title: "Random",
+    img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  },
+  {
+    id: 4,
+    username: "Again Again",
+    title: "Again",
+    img: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+  },
+];
+
+export { xAxisData, newMembers };

@@ -1,0 +1,43 @@
+.WidgetSm {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.WidgetSmTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.WidgetSmList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.WidgetSmPic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.WidgetSmListItem {
+  margin: 20px 0;
+}
+
+.newName {
+  font-weight: 600;
+}
+.newTitle {
+  font-weight: 300;
+}
+
+.WidgetSmBtn {
+  padding: 7px 10px;
+  border-radius: 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
