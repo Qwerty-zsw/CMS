@@ -7,10 +7,11 @@ const WidgetSm = () => {
     <div className="WidgetSm">
       <span className="WidgetSmTitle">New Join Members</span>
       <ul className="WidgetSmList">
+
       {newMembers.map((item) => (
         <li key={item.id} className="WidgetSmListItem w-100 d-flex justify-content-between align-items-center">
           <img className="WidgetSmPic" src={item.img} />
-            <div className="d-flex flex-column asdasd">
+            <div className="d-flex flex-column SmMid">
               <span className="newName">{item.username}</span>
               <span className="newTitle">{item.title}</span>
             </div>
@@ -19,6 +20,7 @@ const WidgetSm = () => {
             </button>
         </li>
       ))}
+      
       </ul>
     </div>
   );
