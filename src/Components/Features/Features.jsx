@@ -23,7 +23,7 @@ const Features = () => {
         <div className="featureContainer">
           <span className="featureMoney">$2,000</span>
           <span className="featureRate">
-            -11.4 <ArrowDownwardIcon className="featureIcon negative" />
+            -9.4 <ArrowDownwardIcon className="featureIcon negative" />
           </span>
         </div>
         <div>
@@ -36,7 +36,7 @@ const Features = () => {
         <div className="featureContainer">
           <span className="featureMoney">$2,000</span>
           <span className="featureRate">
-            -11.4 <ArrowUpwardIcon className="featureIcon" />
+            5.4 <ArrowUpwardIcon className="featureIcon" />
           </span>
         </div>
         <div>
