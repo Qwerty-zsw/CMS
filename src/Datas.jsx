@@ -111,4 +111,62 @@ const transActions = [
   },
 ];
 
-export { xAxisData, newMembers, transActions };
+const userRows = [
+  {
+    id: 1,
+    username: "Masoud Hajiloo",
+    avatar:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    status: "active",
+    transaction: "$146.32",
+    email: "example@gmail.com",
+  },
+  {
+    id: 2,
+    username: "Random Random",
+    avatar:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    status: "non-active",
+    transaction: "$84.99",
+    email: "example@gmail.com",
+  },
+  {
+    id: 3,
+    username: "Again Again",
+    avatar:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    status: "active",
+    transaction: "$543.76",
+    email: "example@gmail.com",
+  },
+  {
+    id: 4,
+    username: "Example Example",
+    avatar:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    status: "non-active",
+    transaction: "$745.45",
+    email: "example@gmail.com",
+  },
+  {
+    id: 5,
+    username: "Zzz Zzz",
+    avatar:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    status: "active",
+    transaction: "$745.45",
+    email: "example@gmail.com",
+  },
+  {
+    id: 6,
+    username: "Boy Boy",
+    avatar:
+      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+    status: "non-active",
+    transaction: "$234.69",
+    email: "example@gmail.com",
+  },
+  
+];
+
+export { xAxisData, newMembers, transActions, userRows };
