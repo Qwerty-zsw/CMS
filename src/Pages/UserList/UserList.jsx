@@ -19,7 +19,7 @@ const UserList = () => {
       width: 200,
       renderCell: (params) => {
         return (
-          <Link to={`/users/${params.row.id}`}>
+          <Link className="cHover" to={`/users/${params.row.id}`}>
             <div className="userListUser d-flex align-items-center">
               <img
                 src={params.row.avatar}
@@ -80,6 +80,9 @@ const UserList = () => {
         sx={{
           "&.MuiDataGrid-root .MuiDataGrid-cell:focus-within": {
             outline: "none !important",
+          },
+          '& .MuiDataGrid-cell:hover': {
+            color: 'primary.main',
           },
         }}
       />
