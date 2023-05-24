@@ -166,7 +166,59 @@ const userRows = [
     transaction: "$234.69",
     email: "example@gmail.com",
   },
-  
 ];
 
-export { xAxisData, newMembers, transActions, userRows };
+const productsDB = [
+  {
+    id: 1,
+    title: "Asus",
+    avatar:
+      "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LyDZ?ver=a1ca&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true",
+    price: 653,
+  },
+  {
+    id: 2,
+    title: "Msi",
+    avatar:
+      "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LyDZ?ver=a1ca&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true",
+    price: 457,
+  },
+  {
+    id: 3,
+    title: "HP",
+    avatar:
+      "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LyDZ?ver=a1ca&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true",
+    price: 745,
+  },
+  {
+    id: 4,
+    title: "Acer",
+    avatar:
+      "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LyDZ?ver=a1ca&q=90&m=6&h=270&w=270&b=%23FFFFFFFF&f=jpg&o=f&aim=true",
+    price: 567,
+  },
+];
+
+const productsData = [
+  {
+    name: "Jan",
+    sales: 2378,
+  },
+  {
+    name: "Feb",
+    sales: 4752,
+  },
+  {
+    name: "Mar",
+    sales: 5684,
+  },
+];
+
+export {
+  xAxisData,
+  newMembers,
+  transActions,
+  userRows,
+  productsDB,
+  productsData,
+};
